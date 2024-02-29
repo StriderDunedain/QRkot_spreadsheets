@@ -1,10 +1,10 @@
 from datetime import datetime
 
 from aiogoogle import Aiogoogle
-# В секретах лежит адрес вашего личного гугл-аккаунта
+
 from app.core.config import settings
 
-# Константа с форматом строкового представления времени
+
 FORMAT = "%Y/%m/%d %H:%M:%S"
 
 
