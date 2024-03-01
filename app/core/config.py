@@ -3,6 +3,17 @@ from typing import Optional
 from pydantic import BaseSettings, EmailStr
 
 
+DRIVE_VERSION = 'v3'
+SPREADSHEETS_VERSION = 'v4'
+
+ROW_COUNT = 100
+COLUMN_COUNT = 11
+
+UPDATE_RANGE = 'A1:E30'
+
+FORMAT = '%Y/%m/%d %H:%M:%S'
+
+
 class Settings(BaseSettings):
     app_title: str = 'Кошачий благотворительный фонд'
 
